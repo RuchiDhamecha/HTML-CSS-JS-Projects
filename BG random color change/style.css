@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 1rem 2rem;
+    background-color: rgb(101, 41, 145);
+    color: aliceblue;
+    border-radius: 1rem;
+}
+button{
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top:1rem ;
+    border:none;
+    outline:none;
+    transition: background 0.4s;
+}
+button:hover{
+    background-color: rgb(203, 181, 247);
+    color: indigo;
+}
